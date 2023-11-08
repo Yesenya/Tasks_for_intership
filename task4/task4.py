@@ -1,4 +1,5 @@
-a = input('путь файла ')
+import sys 
+a = sys.argv[1]
 nums = []
 with open (a, "r") as b:
     nums = [int(line) for line in b]
